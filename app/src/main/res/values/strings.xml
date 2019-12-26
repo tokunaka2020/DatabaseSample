@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">データベースサンプル</string>
+    <string-array name="lv_itemlist">
+        <item>エレコム　キーボードカバー</item>
+        <item>ＩＯデータ　１ＧＢ　ＨＤＤ</item>
+        <item>ＩＯデータ　２ＧＢ　ＨＤＤ</item>
+        <item>インクカートリッジＸＪⅡブラック</item>
+        <item>インクカートリッジＸＪⅡカラー</item>
+        <item>バッファロー　ＬＡＮカード</item>
+        <item>バッファロー　ＬＡＮケーブル</item>
+        <item>ヒサゴ　コピー用紙　Ａ３</item>
+        <item>ヒサゴ　コピー用紙　Ａ４</item>
+        <item>ヒサゴ　コピー用紙　Ｂ４</item>
+        <item>ヒサゴ　コピー用紙　Ｂ５</item>
+        <item>東芝　ＳＤカード　１６ＧＢ</item>
+        <item>東芝　ＳＤカード　３２ＧＢ</item>
+        <item>東芝　ＳＤカード　６４ＧＢ</item>
+    </string-array>
+    <string name="tv_lb_list">アイテムリスト</string>
+    <string name="tv_lb_name">選択されたアイテム</string>
+    <string name="tv_name">未選択</string>
+    <string name="tv_lb_note">備考</string>
+    <string name="btn_save">保存</string>
+</resources>

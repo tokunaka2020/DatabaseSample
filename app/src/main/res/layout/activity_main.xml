@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- アイテムリスト　見出し -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B9EE7B"
+        android:text="@string/tv_lb_list"
+        android:textSize="20sp" />
+
+    <!-- アイテムリスト表示用リストビュー -->
+    <ListView
+        android:id="@+id/lvItem"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:entries="@array/lv_itemlist"/>
+
+    <!-- 選択されたアイテム　見出し -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B9EE7B"
+        android:text="@string/tv_lb_name"
+        android:textSize="20sp" />
+
+    <!-- 選択されたアイテム　アイテム名表示 -->
+    <TextView
+        android:id="@+id/tvItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_name"
+        android:textSize="20sp" />
+
+    <!-- 備考　見出し -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B9EE7B"
+        android:text="@string/tv_lb_note"
+        android:textSize="20sp" />
+
+    <!-- 備考　入力欄 -->
+    <EditText
+        android:id="@+id/etNote"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:enabled="false"
+        android:gravity="top"
+        android:inputType="textMultiLine"/>
+
+    <!-- 保存ボタン -->
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:onClick="onSaveButtonClick"
+        android:text="@string/btn_save"/>
+
+</LinearLayout>
+
